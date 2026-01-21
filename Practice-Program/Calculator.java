@@ -1,7 +1,7 @@
 class Calculator {
 
-    int a;
-    int b;
+    double a;
+    double b;
 
     // Method for Addition
     void addition() {
