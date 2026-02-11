@@ -11,7 +11,7 @@ int r=sc.nextInt();
 System.out.println("Enter the number of Column ");
 int c =sc.nextInt();
 
-int arr[][]=new Int[r][c];
+int arr[][]=new int [r][c];
 
  System.out.println("Array inputs are ");
         for (int i = 0; i < r; i++) {
