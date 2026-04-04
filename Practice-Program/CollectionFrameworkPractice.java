@@ -35,5 +35,18 @@ public class CollectionFrameworkPractice {
         for (String s : al) {
             System.out.println(s);
         }
+        ArrayList<String> al2 = new ArrayList<>();
+        al2.add("1");
+        al2.add("2");
+        al2.add("3");
+        al2.add("4");
+        System.out.println(al2);
+        //addAll method al.addAll(al2);
+        System.out.println("After adding al2 into al :"+al);
+
+        System.out.println(al2.isEmpty());
+        System.out.println(al2.contains(4));
+        System.out.println(al.containsAll(al2));
+        System.out.println(al.indexOf("aa"));
     }
 }
